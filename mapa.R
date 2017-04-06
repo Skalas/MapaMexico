@@ -1,3 +1,5 @@
+library(leaflet)
+library(rgdal)
 mexico <- readOGR(dsn = "./estados", layer = "states", encoding = "UTF-8")
 map <- mexico
 head(mexico@data)
